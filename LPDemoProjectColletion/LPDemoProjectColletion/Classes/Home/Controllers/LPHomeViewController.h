@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LPHomeViewController.h
 //  LPDemoProjectColletion
 //
 //  Created by lizhaopeng on 2017/7/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LPHomeViewController : UIViewController
 
 @end
-

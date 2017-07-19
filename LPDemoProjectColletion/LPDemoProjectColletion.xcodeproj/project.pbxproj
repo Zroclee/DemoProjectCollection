@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A972C6E78F3D66148C7699B2 /* libPods-LPDemoProjectColletion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A482332A218218BDFD71E6 /* libPods-LPDemoProjectColletion.a */; };
+		DF684AEB1F1F04050000DACD /* LPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF684AEA1F1F04050000DACD /* LPHomeViewController.m */; };
+		DF684AEE1F1F04BF0000DACD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF684AED1F1F04BF0000DACD /* Launch Screen.storyboard */; };
 		DFE005A91F1F01460089B4A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE005A81F1F01460089B4A9 /* main.m */; };
 		DFE005AC1F1F01460089B4A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE005AB1F1F01460089B4A9 /* AppDelegate.m */; };
-		DFE005AF1F1F01460089B4A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE005AE1F1F01460089B4A9 /* ViewController.m */; };
-		DFE005B21F1F01460089B4A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE005B01F1F01460089B4A9 /* Main.storyboard */; };
 		DFE005B41F1F01460089B4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE005B31F1F01460089B4A9 /* Assets.xcassets */; };
-		DFE005B71F1F01460089B4A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE005B51F1F01460089B4A9 /* LaunchScreen.storyboard */; };
 		DFE005C21F1F01460089B4A9 /* LPDemoProjectColletionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE005C11F1F01460089B4A9 /* LPDemoProjectColletionTests.m */; };
 		DFE005CD1F1F01460089B4A9 /* LPDemoProjectColletionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE005CC1F1F01460089B4A9 /* LPDemoProjectColletionUITests.m */; };
 /* End PBXBuildFile section */
@@ -39,15 +38,14 @@
 		79A482332A218218BDFD71E6 /* libPods-LPDemoProjectColletion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LPDemoProjectColletion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		880F584F83CAEF80852522B9 /* Pods-LPDemoProjectColletion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPDemoProjectColletion.release.xcconfig"; path = "Pods/Target Support Files/Pods-LPDemoProjectColletion/Pods-LPDemoProjectColletion.release.xcconfig"; sourceTree = "<group>"; };
 		CCC113C2ACDBEED3310E0062 /* Pods-LPDemoProjectColletion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPDemoProjectColletion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LPDemoProjectColletion/Pods-LPDemoProjectColletion.debug.xcconfig"; sourceTree = "<group>"; };
+		DF684AE91F1F04050000DACD /* LPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeViewController.h; sourceTree = "<group>"; };
+		DF684AEA1F1F04050000DACD /* LPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeViewController.m; sourceTree = "<group>"; };
+		DF684AED1F1F04BF0000DACD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DFE005A41F1F01460089B4A9 /* LPDemoProjectColletion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPDemoProjectColletion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE005A81F1F01460089B4A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFE005AA1F1F01460089B4A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFE005AB1F1F01460089B4A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DFE005AD1F1F01460089B4A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DFE005AE1F1F01460089B4A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DFE005B11F1F01460089B4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFE005B31F1F01460089B4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFE005B61F1F01460089B4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFE005B81F1F01460089B4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFE005BD1F1F01460089B4A9 /* LPDemoProjectColletionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPDemoProjectColletionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE005C11F1F01460089B4A9 /* LPDemoProjectColletionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPDemoProjectColletionTests.m; sourceTree = "<group>"; };
@@ -100,6 +98,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF684AE41F1F03790000DACD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF684AE51F1F03BB0000DACD /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF684AE51F1F03BB0000DACD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DF684AE61F1F03E20000DACD /* Controllers */,
+				DF684AE71F1F03E20000DACD /* Models */,
+				DF684AE81F1F03E20000DACD /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DF684AE61F1F03E20000DACD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF684AE91F1F04050000DACD /* LPHomeViewController.h */,
+				DF684AEA1F1F04050000DACD /* LPHomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DF684AE71F1F03E20000DACD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF684AE81F1F03E20000DACD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF684AEC1F1F04B10000DACD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DF684AED1F1F04BF0000DACD /* Launch Screen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DF684AEF1F1F05260000DACD /* AppDelegateExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegateExtension;
+			sourceTree = "<group>";
+		};
 		DFE0059B1F1F01460089B4A9 = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +181,10 @@
 			children = (
 				DFE005AA1F1F01460089B4A9 /* AppDelegate.h */,
 				DFE005AB1F1F01460089B4A9 /* AppDelegate.m */,
-				DFE005AD1F1F01460089B4A9 /* ViewController.h */,
-				DFE005AE1F1F01460089B4A9 /* ViewController.m */,
-				DFE005B01F1F01460089B4A9 /* Main.storyboard */,
+				DF684AEF1F1F05260000DACD /* AppDelegateExtension */,
+				DF684AE41F1F03790000DACD /* Classes */,
+				DF684AEC1F1F04B10000DACD /* Storyboards */,
 				DFE005B31F1F01460089B4A9 /* Assets.xcassets */,
-				DFE005B51F1F01460089B4A9 /* LaunchScreen.storyboard */,
 				DFE005B81F1F01460089B4A9 /* Info.plist */,
 				DFE005A71F1F01460089B4A9 /* Supporting Files */,
 			);
@@ -276,9 +329,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE005B71F1F01460089B4A9 /* LaunchScreen.storyboard in Resources */,
+				DF684AEE1F1F04BF0000DACD /* Launch Screen.storyboard in Resources */,
 				DFE005B41F1F01460089B4A9 /* Assets.xcassets in Resources */,
-				DFE005B21F1F01460089B4A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +403,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE005AF1F1F01460089B4A9 /* ViewController.m in Sources */,
 				DFE005AC1F1F01460089B4A9 /* AppDelegate.m in Sources */,
+				DF684AEB1F1F04050000DACD /* LPHomeViewController.m in Sources */,
 				DFE005A91F1F01460089B4A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,25 +439,6 @@
 			targetProxy = DFE005C91F1F01460089B4A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DFE005B01F1F01460089B4A9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFE005B11F1F01460089B4A9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DFE005B51F1F01460089B4A9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFE005B61F1F01460089B4A9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DFE005CF1F1F01460089B4A9 /* Debug */ = {
@@ -595,6 +628,7 @@
 				DFE005D31F1F01460089B4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFE005D41F1F01460089B4A9 /* Build configuration list for PBXNativeTarget "LPDemoProjectColletionTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +637,7 @@
 				DFE005D61F1F01460089B4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFE005D71F1F01460089B4A9 /* Build configuration list for PBXNativeTarget "LPDemoProjectColletionUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +646,7 @@
 				DFE005D91F1F01460089B4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
