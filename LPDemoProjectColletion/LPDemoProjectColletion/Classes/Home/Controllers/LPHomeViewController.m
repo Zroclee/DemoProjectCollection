@@ -14,11 +14,14 @@
 
 @implementation LPHomeViewController
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
     
     [self buildMainUI];
     
@@ -31,7 +34,9 @@
 {
     
 }
-
+/**
+  搭建主界面
+ */
 - (void)buildMainUI
 {
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
@@ -42,6 +47,8 @@
     
     [self.view addSubview:imageView];
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
