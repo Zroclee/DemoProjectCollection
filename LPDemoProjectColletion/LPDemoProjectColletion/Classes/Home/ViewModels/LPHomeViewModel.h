@@ -8,10 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#pragma mark - block块
+
+typedef void(^CallBack)(NSString *str);
+
+
+@class LPHomeModel;
 @interface LPHomeViewModel : NSObject
 
-+ (instancetype)initWithParams:(NSDictionary *)params;
+@property (nonatomic, strong) LPHomeModel *homeModel;
 
-+ (void)getItemsInfo;
 
 @end

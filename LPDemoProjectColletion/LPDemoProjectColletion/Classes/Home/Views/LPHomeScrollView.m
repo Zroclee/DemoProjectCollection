@@ -30,8 +30,31 @@
          */
         
         
+        
+        
+        
+        
+        
+        
     }
     return self;
+}
+- (void)ctreateItems
+{
+    NSInteger group = [self.dataSource numberOfPagesForHomeScrollView:self];
+    
+    for (int i = 0; i<group; i++) {
+        
+        
+        
+        
+        
+    }
+}
+
+- (void)reloadData
+{
+    
 }
 /*
 // Only override drawRect: if you perform custom drawing.

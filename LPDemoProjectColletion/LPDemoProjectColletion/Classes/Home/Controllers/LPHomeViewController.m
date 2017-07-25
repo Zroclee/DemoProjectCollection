@@ -8,6 +8,10 @@
 
 #import "LPHomeViewController.h"
 
+#import "LPFPSLabel.h"
+
+#import "LPHomeScrollView.h"
+
 @interface LPHomeViewController ()
 
 @end
@@ -23,7 +27,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [self basicSet];
+    
     [self buildMainUI];
+    
+    [self createScrollView];
     
 }
 
@@ -32,6 +40,11 @@
  */
 - (void)basicSet
 {
+    
+//    LPFPSLabel *_fps = [LPFPSLabel new];
+////    [_fps sizeToFit];
+//    _fps.center = self.view.center;
+//    [self.view addSubview:_fps];
     
 }
 /**
@@ -45,8 +58,16 @@
     
     imageView.image = [UIImage imageNamed:@"星系"];
     
-    [self.view addSubview:imageView];
+//    [self.view addSubview:imageView];
 }
+
+- (void)createScrollView
+{
+    LPHomeScrollView *scrollView = [[LPHomeScrollView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+    [self.view addSubview:scrollView];
+}
+
+
 
 
 

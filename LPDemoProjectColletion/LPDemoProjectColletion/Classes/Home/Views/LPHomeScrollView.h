@@ -8,10 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class LPHomeScrollView;
 /**
   数据源代理
  */
 @protocol LPHomeScrollViewDataSource <NSObject>
+
+
+// 有几页
+- (NSInteger)numberOfPagesForHomeScrollView:(LPHomeScrollView *)view;
+
+// 每页有几个items
+- (NSInteger)HomeScrollView:(LPHomeScrollView *)view numberOfItemsForPage:(NSInteger)page;
+
 
 @optional//选择实现
 

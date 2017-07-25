@@ -14,10 +14,19 @@
 #pragma mark - 主页坐标数据
 
 /** scrollViewFrame */
-@property (nonatomic, strong) NSString *str;
+@property (nonatomic, assign) CGRect scrollFrame;
 
-/** homeItemWidth */
-@property (nonatomic, assign) CGFloat itemWidth;
+/** HomeItemsWidth */
+@property (nonatomic, assign) CGFloat itemsWidth;
+
+/** HomeItemsHeight */
+@property (nonatomic, assign) CGFloat itemsHeight;
+
+/** HomeItemsImageWidth */
+@property (nonatomic, assign) CGFloat itemImageHeight;
+
+/** BottomViewHeight */
+@property (nonatomic, assign) CGFloat bottomViewHeight;
 
 
 @end
